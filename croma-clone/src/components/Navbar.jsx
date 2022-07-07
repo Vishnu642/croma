@@ -30,7 +30,7 @@ export const Navbar = ()=>{
     command="Menu"
     color="white"
   />
-  <MenuList bg="black" color="white" onFocus={{color:"rgb(21,75,62)"}} >
+  <MenuList bg="black" color="white"  >
     <MenuItem fontWeight="bold" >
       SHOP BY CATEGORY
     </MenuItem>
