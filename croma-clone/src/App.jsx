@@ -4,6 +4,9 @@ import './App.css'
 
 import { Navbar } from './components/Navbar'
 import {Footer} from "./components/Footer"
+import { DemoCarousel } from './components/Slider'
+import { NewAtCroma } from './components/NewAtCroma'
+
 
 function App() {
   const [count, setCount] = useState(0)
@@ -11,6 +14,8 @@ function App() {
   return (
     <div className="App">
       <Navbar/>
+      <DemoCarousel/>
+      <NewAtCroma/>
     <Footer/>
     </div>
   )

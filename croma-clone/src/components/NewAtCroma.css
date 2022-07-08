@@ -1,0 +1,33 @@
+.new-container{
+    width: 100%;
+    background-color: black;
+}
+
+.new-box{
+    width: 80%;
+    background-color: black;
+    border: 1px solid black;
+    margin: auto;
+}
+.new-header{
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+    padding: 5px 5px 5px 0px;
+}
+.new-img{
+    display: flex;
+    gap: 10px;
+}
+.img{
+    border-radius: 10px;
+}
+.new-grid{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.footer-text{
+    width: 100%;
+    color: white;
+    padding: 20px;
+}
