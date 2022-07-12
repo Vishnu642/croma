@@ -1,9 +1,12 @@
 
-import {Box,Grid,GridItem,Image,Text} from "@chakra-ui/react"
+import {Box,Grid,GridItem,Image,Text,Flex} from "@chakra-ui/react"
 import "./NewAtCroma.css"
 export const NewAtCroma =()=>{
     return(
         <Box className="new-container" >
+
+
+
             <Box className="new-box" >
                 <Box className="new-header" >
                     <Text>New at Croma</Text>
@@ -43,6 +46,19 @@ export const NewAtCroma =()=>{
 
 
                 <Box>
+                    <Box className="new-header" ><Text>Best Deals on Washing Machines</Text></Box>
+                    <Grid className="new-grid" templateColumns="repeat(4,1fr)" gap="10px" >
+                        <GridItem  ><Image objectFit="contain" borderRadius="10px" src="https://d2d22nphq0yz8t.cloudfront.net/88e6cc4b-eaa1-4053-af65-563d88ba8b26/https://media.croma.com/image/upload/v1656660236/Croma%20Assets/CMS/Homepage%20Banners/CROMA%20SERIES/HP_EE_WashingMachines_382x416_1july2022_vkysym.jpg/mxw_1440,f_auto" ></Image></GridItem>
+                        <GridItem><Image objectFit="contain" borderRadius="10px" src="https://d2d22nphq0yz8t.cloudfront.net/88e6cc4b-eaa1-4053-af65-563d88ba8b26/https://media.croma.com/image/upload/v1657205182/Croma%20Assets/CMS/Bugs/0707/HP_FA_WashingMachines_382x416_7july2022_f4zj2l.png/mxw_1440,f_auto" ></Image></GridItem>
+                        <GridItem><Image objectFit="contain" borderRadius="10px" src="https://d2d22nphq0yz8t.cloudfront.net/88e6cc4b-eaa1-4053-af65-563d88ba8b26/https://media.croma.com/image/upload/v1657205182/Croma%20Assets/CMS/Bugs/0707/HP_FL_WashingMachines_382x416_7july2022_blydxk.png/mxw_1440,f_auto" ></Image></GridItem>
+                        <GridItem><Image objectFit="contain" borderRadius="10px" src="https://d2d22nphq0yz8t.cloudfront.net/88e6cc4b-eaa1-4053-af65-563d88ba8b26/https://media.croma.com/image/upload/v1656924759/Croma%20Assets/CMS/CAtegory/Washing%20Machine%20-%20C48/04-07-2022/HP_WashingMachines_382x416_A_4july2022_nno2h1.jpg/mxw_1440,f_auto" ></Image></GridItem>
+                      
+                        
+                    </Grid>
+                </Box>
+
+
+                <Box>
                 <Box className="new-header" ><Text>Computer Peripheral Store</Text></Box>
                     <Grid className="new-grid" templateColumns="repeat(4,1fr)" gap="10px" >
                         <GridItem  ><Image objectFit="contain" borderRadius="10px" src="https://d2d22nphq0yz8t.cloudfront.net/88e6cc4b-eaa1-4053-af65-563d88ba8b26/https://media.croma.com/image/upload/v1655912174/Croma%20Assets/CMS/LP%20Page%20Banners/2022/20-06-2022/HP_Croma-_382x416_Printers_22June2022_amnmih.png/mxw_1440,f_auto" ></Image></GridItem>
@@ -50,13 +66,34 @@ export const NewAtCroma =()=>{
                         <GridItem><Image objectFit="contain" borderRadius="10px" src="https://d2d22nphq0yz8t.cloudfront.net/88e6cc4b-eaa1-4053-af65-563d88ba8b26/https://media.croma.com/image/upload/v1653660273/Croma%20Assets/CMS/Homepage%20Banners/Computer%20Peripheral%20Store/HP_Croma-_382x416_Desktop_27May2022_r0us47.png/mxw_1440,f_auto" ></Image></GridItem>
                         <GridItem><Image objectFit="contain" borderRadius="10px" src="https://d2d22nphq0yz8t.cloudfront.net/88e6cc4b-eaa1-4053-af65-563d88ba8b26/https://media.croma.com/image/upload/v1654507206/Croma%20Assets/CMS/Homepage%20Banners/Highlights/HP_Croma_382x416_Networking_06-June-2022_zr5y8j.png/mxw_1440,f_auto" ></Image></GridItem>
                       
-                        
                     </Grid>
                 </Box>
 
 
 
             </Box>
+
+
+            <Box className="categories" >
+                <Box className="new-header" ><Text>Top Brands</Text></Box>
+            <Flex className="categories-box" >
+            <Box><Image objectFit="contain" borderRadius="10px" src="https://d2d22nphq0yz8t.cloudfront.net/88e6cc4b-eaa1-4053-af65-563d88ba8b26/https://media.croma.com/image/upload/v1654848447/Croma%20Assets/CMS/Brand%20Logos/apple_xmf55t.png/mxw_1440,f_auto" ></Image></Box>
+            <Box><Image objectFit="contain" borderRadius="10px" src="https://d2d22nphq0yz8t.cloudfront.net/88e6cc4b-eaa1-4053-af65-563d88ba8b26/https://media.croma.com/image/upload/v1652260853/Croma%20Assets/CMS/Brand%20Logos/samsung_tmmzob.png/mxw_1440,f_auto" ></Image></Box>
+            <Box><Image objectFit="contain" borderRadius="10px" src="https://d2d22nphq0yz8t.cloudfront.net/88e6cc4b-eaa1-4053-af65-563d88ba8b26/https://media.croma.com/image/upload/v1652260852/Croma%20Assets/CMS/Brand%20Logos/philips_lv4l0t.png/mxw_1440,f_auto" ></Image></Box>
+            <Box><Image objectFit="contain" borderRadius="10px" src="https://d2d22nphq0yz8t.cloudfront.net/88e6cc4b-eaa1-4053-af65-563d88ba8b26/https://media.croma.com/image/upload/v1653914556/Croma%20Assets/CMS/Brand%20Logos/HP_CromaLogo_yxeuuz.png/mxw_1440,f_auto" ></Image></Box>
+            <Box><Image objectFit="contain" borderRadius="10px" src="https://d2d22nphq0yz8t.cloudfront.net/88e6cc4b-eaa1-4053-af65-563d88ba8b26/https://media.croma.com/image/upload/v1652260851/Croma%20Assets/CMS/Brand%20Logos/hp_co1yuv.png/mxw_1440,f_auto" ></Image></Box>
+            <Box><Image objectFit="contain" borderRadius="10px" src="https://d2d22nphq0yz8t.cloudfront.net/88e6cc4b-eaa1-4053-af65-563d88ba8b26/https://media.croma.com/image/upload/v1654848448/Croma%20Assets/CMS/Brand%20Logos/sony_fa0aon.png/mxw_1440,f_auto" ></Image></Box>
+            <Box><Image objectFit="contain" borderRadius="10px" src="https://d2d22nphq0yz8t.cloudfront.net/88e6cc4b-eaa1-4053-af65-563d88ba8b26/https://media.croma.com/image/upload/v1654848447/Croma%20Assets/CMS/Brand%20Logos/Lg_duygz8.png/mxw_1440,f_auto" ></Image></Box>
+            <Box><Image objectFit="contain" borderRadius="10px" src="https://d2d22nphq0yz8t.cloudfront.net/88e6cc4b-eaa1-4053-af65-563d88ba8b26/https://media.croma.com/image/upload/v1654848446/Croma%20Assets/CMS/Brand%20Logos/dell_nagdmt.png/mxw_1440,f_auto" ></Image></Box>
+            
+        </Flex>
+            </Box>
+
+
+           
+
+
+
 
         
             <Box className="footer-text" >

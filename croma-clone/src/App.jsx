@@ -6,6 +6,11 @@ import { Navbar } from './components/Navbar'
 import {Footer} from "./components/Footer"
 import { DemoCarousel } from './components/Slider'
 import { NewAtCroma } from './components/NewAtCroma'
+import { Highlights } from './components/Highlights'
+
+
+
+
 
 
 function App() {
@@ -15,6 +20,7 @@ function App() {
     <div className="App">
       <Navbar/>
       <DemoCarousel/>
+    <Highlights/>
       <NewAtCroma/>
     <Footer/>
     </div>

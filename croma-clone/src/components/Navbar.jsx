@@ -4,11 +4,15 @@ import {Box,Flex,Image, Menu,Text,
     MenuList,
     MenuItem,
     IconButton,
+    Icon,
     Input
    } from "@chakra-ui/react"
    import {HamburgerIcon} from "@chakra-ui/icons"
    import { FaUserAlt } from 'react-icons/fa';
    import {GoLocation} from "react-icons/go"
+   import {FiShoppingCart} from "react-icons/fi"
+import { CartCounter } from './CartCounter';
+
 
 export const Navbar = ()=>{
     return(
@@ -85,7 +89,15 @@ export const Navbar = ()=>{
                 <Box display="flex" justifyContent="center" alignItems="center" >
                     <FaUserAlt size="22" color="white" />
                     </Box>
-                <Box></Box>
+
+                <Box>
+                
+            <Box margin-top="5px" position="relative" padding="1rem 0.5rem 0 0" >
+          <CartCounter/>
+          <FiShoppingCart color="white" size="30px" />
+          </Box>
+          
+                </Box>
             </Flex>
         </Box>
     )

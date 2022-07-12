@@ -1,15 +1,32 @@
+.categories{
+    width: 100%;
+    background-color:#121212;
+}
+.categories-box{
+    width: 80%;
+    margin: auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: transparent;
+}
+
+
+
+
 .new-container{
     width: 100%;
-    background-color: black;
+    background-color: #121212;
 }
 
 .new-box{
     width: 80%;
-    background-color: black;
-    border: 1px solid black;
+    background-color: #121212;
+    border: 1px solid #121212;
     margin: auto;
+    
 }
 .new-header{
+    width: 100%;
     color: white;
     font-size: 25px;
     font-weight: bold;
@@ -30,4 +47,9 @@
     width: 100%;
     color: white;
     padding: 20px;
+}
+
+.tata{
+    width: 100px;
+    background-image: url("https://www.ymcatriangle.org/sites/default/files/2019-02/programheader_bluegradient_0.jpg");
 }
