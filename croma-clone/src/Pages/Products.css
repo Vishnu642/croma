@@ -1,0 +1,36 @@
+.product-container{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+.product{
+    width: 75%;
+    border: 1px solid transparent;
+}
+.filter{
+    width: 25%;
+    border: 1px solid transparent;
+    background-color:#121212 ;
+    color: white;
+}
+.sort{
+     margin-top: 10px;
+     margin-bottom: 10px;
+     border: 1px solid transparent;
+}
+.sort1{
+    margin-left: 60px;
+}
+
+.heading{
+    font-size: 17px;
+    font-weight: 700;padding: 5px;
+}
+
+.category{
+    border:"1px solid transparent";
+    padding-top: 10px;
+    padding-bottom: 10px;
+     margin-left: 60px;
+     
+}

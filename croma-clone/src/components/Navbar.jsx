@@ -92,7 +92,7 @@ export const Navbar = ()=>{
 
                 <Box>
                 
-            <Box margin-top="5px" position="relative" padding="1rem 0.5rem 0 0" >
+            <Box  position="relative" padding="1rem 0.5rem 0 0" >
           <CartCounter/>
           <FiShoppingCart color="white" size="30px" />
           </Box>

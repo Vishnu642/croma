@@ -1,0 +1,24 @@
+{
+    "products":[{"id": 1,
+    "title": "Samsung 7 108cm smart Tv",
+    "price": 34490,
+    "description": "POLESTAR Vintage” has unique style and utility requirement. Ergonomically designed with padded base. This Backpack is spacious, lightweight and easy to carry. It is an ideal backpack for daily use, Office, School, College, travel etc.",
+    "category": "Television",
+    "image": "https://media.croma.com/image/upload/v1654763733/Croma%20Assets/Entertainment/Television/Images/250632_fkvwfw.png",
+    "rating": {
+      "rate": 4,
+      "count": 315
+    }},
+    {
+    "id": 2,
+    "title": "Croma 80cm Android TV",
+    "price": 11999,
+    "description": "POLESTAR Vintage” has unique style and utility requirement. Ergonomically designed with padded base. This Backpack is spacious, lightweight and easy to carry. It is an ideal backpack for daily use, Office, School, College, travel etc.",
+    "category": "Television",
+    "image": "https://d2d22nphq0yz8t.cloudfront.net/88e6cc4b-eaa1-4053-af65-563d88ba8b26/https://media.croma.com/image/upload/v1649083242/Croma%20Assets/Entertainment/Television/Images/247599_dtbaei.png/mxw_1440,f_auto",
+    "rating": {
+      "rate": 4,
+      "count": 315
+    }}
+]
+}

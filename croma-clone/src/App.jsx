@@ -4,9 +4,10 @@ import './App.css'
 
 import { Navbar } from './components/Navbar'
 import {Footer} from "./components/Footer"
-import { DemoCarousel } from './components/Slider'
-import { NewAtCroma } from './components/NewAtCroma'
-import { Highlights } from './components/Highlights'
+import { Products } from './Pages/Products'
+// import { DemoCarousel } from './components/Slider'
+// import { NewAtCroma } from './components/NewAtCroma'
+// import { Highlights } from './components/Highlights'
 
 
 
@@ -19,9 +20,10 @@ function App() {
   return (
     <div className="App">
       <Navbar/>
-      <DemoCarousel/>
+      {/* <DemoCarousel/>
     <Highlights/>
-      <NewAtCroma/>
+      <NewAtCroma/> */}
+      <Products/>
     <Footer/>
     </div>
   )
