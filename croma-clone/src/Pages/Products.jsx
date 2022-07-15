@@ -1,9 +1,23 @@
 import {Box, Checkbox, CheckboxGroup, MenuList, Stack,MenuButton,Menu, Text, MenuItem} from "@chakra-ui/react"
 import "./Products.css"
 import {ChevronDownIcon} from "@chakra-ui/icons"
+import {useDispatch, useSelector} from "react-redux"
+import { useEffect } from "react"
+import { fetchData } from "../Redux/Products/action"
+import {AiOutlineHeart} from "react-icons/ai"
 
 
 export const Products = ()=>{
+
+  const products = useSelector((store)=>store.ecommerceData.products)
+
+  const dispatch = useDispatch()
+
+  useEffect(()=>{
+        dispatch(fetchData())
+  },[dispatch])
+
+
     return(
         <Box className="product-container" >
 
@@ -82,8 +96,15 @@ export const Products = ()=>{
 
             <Box className="product" >
 
-
-
+            {products.map(product=>{
+                        return(
+                        <Box className="product-box" key={product.id} >
+                          <Box style={{display:"flex",justifyContent:"flex-end"}} ><AiOutlineHeart color="white" size="20px"  /></Box> 
+                        <Box className="pro-img" ><img style={{objectFit:"contain"}} src={product.image} /></Box>
+                        <Box className="pro-title" >{product.title}</Box>
+                         <Box className="pro-price" >₹ {product.price}</Box>
+                        </Box>
+                    )})}
             </Box>
 
         </Box>
