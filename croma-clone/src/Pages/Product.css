@@ -1,0 +1,22 @@
+.product-container{
+    width: 90%;
+    margin: auto;
+    display: flex;
+
+}
+.product-img{
+    width: 50%;
+    height: 500px;
+    border: 1px solid violet;
+}
+.product-des{
+    width: 50%;
+    height: 500px;
+    border: 1px solid aquamarine;
+}
+.img-icons{
+    display: flex;
+    justify-content: flex-end;
+    gap: 15px;
+    padding: 10px;
+}

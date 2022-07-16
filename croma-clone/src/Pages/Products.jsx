@@ -99,10 +99,10 @@ export const Products = ()=>{
             {products.map(product=>{
                         return(
                         <Box className="product-box" key={product.id} >
-                          <Box style={{display:"flex",justifyContent:"flex-end"}} ><AiOutlineHeart color="white" size="20px"  /></Box> 
+                        <Box style={{display:"flex",justifyContent:"flex-end"}} ><AiOutlineHeart color="white" size="20px"  /></Box> 
                         <Box className="pro-img" ><img style={{objectFit:"contain"}} src={product.image} /></Box>
                         <Box className="pro-title" >{product.title}</Box>
-                         <Box className="pro-price" >₹ {product.price}</Box>
+                        <Box className="pro-price" >₹ {product.price}</Box>
                         </Box>
                     )})}
             </Box>
