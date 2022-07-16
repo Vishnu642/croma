@@ -60,7 +60,7 @@ export const Products = ()=>{
   <Stack>
   <Text className="heading"  >Categories</Text>
     <Checkbox value='Televisions'>Televisions</Checkbox>
-    <Checkbox value=''>Mobiles</Checkbox>
+    <Checkbox value='Mobiles'>Mobiles</Checkbox>
     <Checkbox value='Laptops'>Laptops</Checkbox>
     <Checkbox value='Audio'>Audio</Checkbox>
     <Checkbox value='Refrigerators'>Refrigerators</Checkbox>
@@ -100,7 +100,7 @@ export const Products = ()=>{
                         return(
                         <Box className="product-box" key={product.id} >
                         <Box style={{display:"flex",justifyContent:"flex-end"}} ><AiOutlineHeart color="white" size="20px"  /></Box> 
-                        <Box className="pro-img" ><img style={{objectFit:"contain"}} src={product.image} /></Box>
+                        <Box className="pro-img" ><Link to={`/product/${id}`} ><img style={{objectFit:"contain"}} src={product.image} /></Link></Box>
                         <Box className="pro-title" >{product.title}</Box>
                         <Box className="pro-price" >₹ {product.price}</Box>
                         </Box>

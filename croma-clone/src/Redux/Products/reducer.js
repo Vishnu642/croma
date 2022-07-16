@@ -1,10 +1,13 @@
-import { FETCH_DATA_FAILURE, FETCH_DATA_REQUEST, FETCH_DATA_SUCCESS } from "./actionTypes";
+import { FETCH_DATA_FAILURE, FETCH_DATA_REQUEST,
+     FETCH_DATA_SUCCESS, GET_SINGLE_PRODUCT_FAILURE, GET_SINGLE_PRODUCT_REQUEST,
+      GET_SINGLE_PRODUCT_SUCCESS } from "./actionTypes";
 
 
 const initialState={
     products:[],
     loading:false,
-    error:""
+    error:"",
+    currentProduct:{}
 }
 
 const reducer=(state=initialState,action)=>{
@@ -29,6 +32,26 @@ const reducer=(state=initialState,action)=>{
                         error:payload,
                         loading:false
                     }
+                case GET_SINGLE_PRODUCT_REQUEST:
+                    return{
+                        ...state,
+                        error:"",
+                        loading:true
+
+                    } 
+                case GET_SINGLE_PRODUCT_SUCCESS:
+                    return{
+                        ...state,
+                        currentProduct:payload,
+                        loading:false
+                    }
+                case GET_SINGLE_PRODUCT_FAILURE:
+                    return{
+                        ...state,
+                        error:payload,
+                        loading:false
+                    }
+
                     default:
                         return state;
     }

@@ -9,7 +9,15 @@ export const Product = ()=>{
                 <Box className="img-icons" ><AiOutlineHeart size="30px" /><AiOutlineShareAlt size="30px" /></Box>
                 <Box></Box>
             </Box>
-            <Box className="product-des" ></Box>
+            <Box className="product-des" >
+                <Box><Text>Samsung galaxy S21</Text></Box>
+                <Box></Box>
+                <Box>
+                    <Box></Box>
+                    <Box></Box>
+                    <Box></Box>
+                </Box>
+            </Box>
         </Box>
     )
 }
