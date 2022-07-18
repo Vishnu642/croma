@@ -4,11 +4,9 @@ import './App.css'
 
 import { Navbar } from './components/Navbar'
 import {Footer} from "./components/Footer"
-// import { Products } from './Pages/Products'
-import { Product } from './Pages/Product'
-// import { DemoCarousel } from './components/Slider'
-// import { NewAtCroma } from './components/NewAtCroma'
-// import { Highlights } from './components/Highlights'
+import { AllRoutes } from './Pages/AllRoutes'
+
+
 
 
 
@@ -21,11 +19,7 @@ function App() {
   return (
     <div className="App">
       <Navbar/>
-      {/* <DemoCarousel/>
-    <Highlights/>
-      <NewAtCroma/> */}
-      {/* <Products/> */}
-      <Product/>
+    <AllRoutes/>
     <Footer/>
     </div>
   )

@@ -5,6 +5,7 @@ import {useDispatch, useSelector} from "react-redux"
 import { useEffect } from "react"
 import { fetchData } from "../Redux/Products/action"
 import {AiOutlineHeart} from "react-icons/ai"
+// import { Link } from "react-router-dom"
 
 
 export const Products = ()=>{
@@ -100,7 +101,7 @@ export const Products = ()=>{
                         return(
                         <Box className="product-box" key={product.id} >
                         <Box style={{display:"flex",justifyContent:"flex-end"}} ><AiOutlineHeart color="white" size="20px"  /></Box> 
-                        <Box className="pro-img" ><Link to={`/product/${id}`} ><img style={{objectFit:"contain"}} src={product.image} /></Link></Box>
+                        <Box className="pro-img" ><img style={{objectFit:"contain"}} src={product.image} /></Box>
                         <Box className="pro-title" >{product.title}</Box>
                         <Box className="pro-price" >₹ {product.price}</Box>
                         </Box>
