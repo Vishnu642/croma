@@ -250,6 +250,83 @@
                                           "rating": {
                                             "rate": 4,
                                             "count": 315
-                                          }}  
+                                          }},
+                                          {
+                                            "id": 24,
+                                            "title": "HP 15s",
+                                            "price": 31999,
+                                            "description": "POLESTAR Vintage” has unique style and utility requirement. Ergonomically designed with padded base. This Backpack is spacious, lightweight and easy to carry. It is an ideal backpack for daily use, Office, School, College, travel etc.",
+                                            "category": "Laptops",
+                                            "image": "https://d2d22nphq0yz8t.cloudfront.net/88e6cc4b-eaa1-4053-af65-563d88ba8b26/https://media.croma.com/image/upload/v1657044219/Croma%20Assets/Computers%20Peripherals/Laptop/Images/248020_k9qsrs.png/mxw_1440,f_auto",
+                                            "rating": {
+                                              "rate": 4,
+                                              "count": 315
+                                            }},
+                                            {
+                                              "id": 25,
+                                              "title": "Acer A1515",
+                                              "price": 47999,
+                                              "description": "POLESTAR Vintage” has unique style and utility requirement. Ergonomically designed with padded base. This Backpack is spacious, lightweight and easy to carry. It is an ideal backpack for daily use, Office, School, College, travel etc.",
+                                              "category": "Laptops",
+                                              "image": "https://d2d22nphq0yz8t.cloudfront.net/88e6cc4b-eaa1-4053-af65-563d88ba8b26/https://media.croma.com/image/upload/v1654078908/Croma%20Assets/Computers%20Peripherals/Laptop/Images/253069_ee4rke.png/mxw_1440,f_auto",
+                                              "rating": {
+                                                "rate": 4,
+                                                "count": 315
+                                              }} ,
+                                              {
+                                                "id": 26,
+                                                "title": "Lenovo Ideapad",
+                                                "price": 33999,
+                                                "description": "POLESTAR Vintage” has unique style and utility requirement. Ergonomically designed with padded base. This Backpack is spacious, lightweight and easy to carry. It is an ideal backpack for daily use, Office, School, College, travel etc.",
+                                                "category": "Laptops",
+                                                "image": "https://d2d22nphq0yz8t.cloudfront.net/88e6cc4b-eaa1-4053-af65-563d88ba8b26/https://media.croma.com/image/upload/v1655964213/Croma%20Assets/Computers%20Peripherals/Laptop/Images/245967_dt3lo4.png/mxw_1440,f_auto",
+                                                "rating": {
+                                                  "rate": 4,
+                                                  "count": 315
+                                                }},
+                                                {
+                                                  "id": 27,
+                                                  "title": "MI Notebook",
+                                                  "price": 63999,
+                                                  "description": "POLESTAR Vintage” has unique style and utility requirement. Ergonomically designed with padded base. This Backpack is spacious, lightweight and easy to carry. It is an ideal backpack for daily use, Office, School, College, travel etc.",
+                                                  "category": "Laptops",
+                                                  "image": "https://d2d22nphq0yz8t.cloudfront.net/88e6cc4b-eaa1-4053-af65-563d88ba8b26/https://media.croma.com/image/upload/v1648196080/Croma%20Assets/Computers%20Peripherals/Laptop/Images/250565_ikeeq8.png/mxw_1440,f_auto",
+                                                  "rating": {
+                                                    "rate": 4,
+                                                    "count": 315
+                                                  }},
+                                                  {
+                                                    "id": 28,
+                                                    "title": "Dell Vostro",
+                                                    "price": 33999,
+                                                    "description": "POLESTAR Vintage” has unique style and utility requirement. Ergonomically designed with padded base. This Backpack is spacious, lightweight and easy to carry. It is an ideal backpack for daily use, Office, School, College, travel etc.",
+                                                    "category": "Laptops",
+                                                    "image": "https://d2d22nphq0yz8t.cloudfront.net/88e6cc4b-eaa1-4053-af65-563d88ba8b26/https://media.croma.com/image/upload/v1606107698/Croma%20Assets/Computers%20Peripherals/Laptop/Images/9004370001950.png/mxw_1440,f_auto",
+                                                    "rating": {
+                                                      "rate": 4,
+                                                      "count": 315
+                                                    }},
+                                                    {
+                                                      "id": 29,
+                                                      "title": "Dell Inspiron",
+                                                      "price": 47999,
+                                                      "description": "POLESTAR Vintage” has unique style and utility requirement. Ergonomically designed with padded base. This Backpack is spacious, lightweight and easy to carry. It is an ideal backpack for daily use, Office, School, College, travel etc.",
+                                                      "category": "Laptops",
+                                                      "image": "https://d2d22nphq0yz8t.cloudfront.net/88e6cc4b-eaa1-4053-af65-563d88ba8b26/https://media.croma.com/image/upload/v1654502738/Croma%20Assets/Computers%20Peripherals/Laptop/Images/255892_ky8uvp.png/mxw_1440,f_auto",
+                                                      "rating": {
+                                                        "rate": 4,
+                                                        "count": 315
+                                                      }},
+                                                      {
+                                                        "id": 30,
+                                                        "title": "Dell Inspiron lite",
+                                                        "price": 23999,
+                                                        "description": "POLESTAR Vintage” has unique style and utility requirement. Ergonomically designed with padded base. This Backpack is spacious, lightweight and easy to carry. It is an ideal backpack for daily use, Office, School, College, travel etc.",
+                                                        "category": "Laptops",
+                                                        "image": "https://d2d22nphq0yz8t.cloudfront.net/88e6cc4b-eaa1-4053-af65-563d88ba8b26/https://media.croma.com/image/upload/v1654502738/Croma%20Assets/Computers%20Peripherals/Laptop/Images/255892_ky8uvp.png/mxw_1440,f_auto",
+                                                        "rating": {
+                                                          "rate": 4,
+                                                          "count": 315
+                                                        }}                            
 ]
 }
