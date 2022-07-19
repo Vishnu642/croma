@@ -2,8 +2,15 @@ import { Box,Text } from "@chakra-ui/react"
 import "./Cartpage.css"
 import {RiCouponLine} from "react-icons/ri"
 import {TbTruckDelivery} from "react-icons/tb"
+import { useSelector } from "react-redux"
+
 
 export const Cart = ()=>{
+
+    const cart = useSelector((store)=>store.ecommerceData.cart)
+  
+console.log(cart)
+
     return(
         <Box className="cart" >
             <Box className="cart-heading" >Your Cart</Box>
@@ -14,8 +21,30 @@ export const Cart = ()=>{
                         <RiCouponLine size="30px" />
                         <Text>Apply Coupon</Text>
                     </Box>
-                    <Box>
-
+                    <Box  >
+                {    cart.map(product=>{
+                return(
+                    <Box className="cart-pro" >
+                        <Box className="cart-img" >
+                            <Box>
+                                <img className="img" src={product.image} ></img>
+                            </Box>
+                        </Box>
+                        <Box className="cart-title" >
+                            <Box style={{padding:"10px",fontSize:"20px"}}>
+                                <Text>{product.title}</Text>
+                            </Box>
+                            <Box style={{marginTop:"20px"}} >
+                                <button className="remove" >Remove</button>
+                            </Box>
+                        </Box>
+                        <Box className="cart-rate" >
+                            <Text>₹ {product.price}<br></br>
+                            (incl. all taxes)</Text>
+                        </Box>
+                    </Box>
+                )
+            }) }
                     </Box>
                 </Box>
 

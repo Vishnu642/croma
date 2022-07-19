@@ -1,6 +1,6 @@
 import Axios from "axios"
 import { ADD_PRODUCT_CART_FAILURE, ADD_PRODUCT_CART_REQUEST, 
-    ADD_PRODUCT_CART_SUCCESS, FETCH_DATA_FAILURE,
+    ADD_PRODUCT_CART_SUCCESS, FETCH_CART_FAILURE, FETCH_CART_REQUEST, FETCH_CART_SUCCESS, FETCH_DATA_FAILURE,
      FETCH_DATA_REQUEST, FETCH_DATA_SUCCESS,
      GET_SINGLE_PRODUCT_FAILURE, GET_SINGLE_PRODUCT_REQUEST,
       GET_SINGLE_PRODUCT_SUCCESS } from "./actionTypes"
@@ -90,4 +90,31 @@ export const addProductCart = (product)=>dispatch=>{
     dispatch(addProductCartRequest())
     Axios.post("/cart",product).then(r=>dispatch(addProductCartSuccess(r.data)))
     .catch(e=>dispatch(addProductCartFailure(e.data)))
+}
+
+const fetchCartRequest=(payload)=>{
+    return{
+        type:FETCH_CART_REQUEST,
+        payload
+    }
+}
+
+const fetchCartSuccess = (payload)=>{
+    return{
+        type:FETCH_CART_SUCCESS,
+        payload
+    }
+}
+
+const fetchCartFailure = (payload)=>{
+    return{
+        type:FETCH_CART_FAILURE,
+        payload
+    }
+}
+
+export const fetchCart = (payload)=>dispatch=>{
+    dispatch(fetchCartRequest())
+    Axios.get("/cart").then(res=>dispatch(fetchCartSuccess(res.data)))
+    .catch(e=>dispatch(fetchCartFailure(e.data)))
 }
