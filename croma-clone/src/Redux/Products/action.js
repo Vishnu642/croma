@@ -1,5 +1,7 @@
 import Axios from "axios"
-import { FETCH_DATA_FAILURE, FETCH_DATA_REQUEST, FETCH_DATA_SUCCESS,
+import { ADD_PRODUCT_CART_FAILURE, ADD_PRODUCT_CART_REQUEST, 
+    ADD_PRODUCT_CART_SUCCESS, FETCH_DATA_FAILURE,
+     FETCH_DATA_REQUEST, FETCH_DATA_SUCCESS,
      GET_SINGLE_PRODUCT_FAILURE, GET_SINGLE_PRODUCT_REQUEST,
       GET_SINGLE_PRODUCT_SUCCESS } from "./actionTypes"
 import { Products } from "../../Pages/Products"
@@ -63,3 +65,29 @@ export const getSingleProduct=(id)=>(dispatch)=>{
     .catch(e=>dispatch(getSingleProductFailure(e.data)))
 }
 
+const addProductCartRequest = (payload)=>{
+    return{
+        type:ADD_PRODUCT_CART_REQUEST,
+        payload
+    }
+}
+
+const addProductCartSuccess = (payload)=>{
+    return{
+        type:ADD_PRODUCT_CART_SUCCESS,
+        payload
+    }
+}
+
+const addProductCartFailure = (payload)=>{
+    return{
+        type:ADD_PRODUCT_CART_FAILURE,
+        payload
+    }
+}
+
+export const addProductCart = (product)=>dispatch=>{
+    dispatch(addProductCartRequest())
+    Axios.post("/cart",product).then(r=>dispatch(addProductCartSuccess(r.data)))
+    .catch(e=>dispatch(addProductCartFailure(e.data)))
+}

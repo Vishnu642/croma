@@ -3,8 +3,8 @@ import "./Product.css"
 import {AiOutlineHeart,AiOutlineShareAlt} from "react-icons/ai"
 import {useDispatch, useSelector} from "react-redux"
 import { useEffect } from 'react';
-import { getSingleProduct} from "../Redux/Products/action"
 import { useParams } from 'react-router-dom';
+import {addProductCart, getSingleProduct} from "../Redux/Products/action"
 export const Product = ()=>{
     const {id} = useParams();
 
@@ -18,13 +18,14 @@ export const Product = ()=>{
       }
     },[dispatch,id])
 
-    // const addToCartHandler = ()=>{
-    //     currentProduct && dispatch(addProductCart(currentProduct))
-    // }
+    const addToCartHandler = ()=>{
+        currentProduct && dispatch(addProductCart(currentProduct))
+    }
 
     return(
 
         <Box className="product-container" >
+
             <Box className="product-img" >
                 <Box className="img-icons" ><AiOutlineHeart size="30px" /><AiOutlineShareAlt size="30px" /></Box>
                 <Box className="product1-img" >
@@ -74,7 +75,9 @@ Split your bill in 3 for free with No Cost EMI.
                 <Box style={{padding:"30px",display:"flex",justifyContent:"center"}} ><button style={{width:"300px",height:"40px"
             ,background:"rgb(0,233,191)",color:"black",borderRadius:"5px"
             ,padding:"10px"
-            }} >Add to Cart</button></Box>
+            }} 
+            onClick={addToCartHandler}
+            >Add to Cart</button></Box>
             </Box>
         </Box>
     )

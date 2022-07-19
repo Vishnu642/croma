@@ -7,13 +7,14 @@
 }
 .product-img{
     width: 50%;
-    height: 500px;
+    height: 525px;
     border: 1px solid transparent;
 }
 .product-des{
     width: 50%;
     height: 500px;
     border: 1px solid transparent;
+    padding: 10px;
 }
 .img-icons{
     display: flex;
