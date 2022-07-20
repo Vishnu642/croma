@@ -23,8 +23,9 @@ export const Product = ()=>{
     }
 
     return(
+        <Box style={{width:"100%",backgroundColor:"#1e1e1e"}} >
 
-        <Box className="product-container" >
+        <Box className="product1-container" >
 
             <Box className="product-img" >
                 <Box className="img-icons" ><AiOutlineHeart size="30px" /><AiOutlineShareAlt size="30px" /></Box>
@@ -79,6 +80,7 @@ Split your bill in 3 for free with No Cost EMI.
             onClick={addToCartHandler}
             >Add to Cart</button></Box>
             </Box>
+        </Box>
         </Box>
     )
 }

@@ -2,12 +2,16 @@ import { Box,Text } from "@chakra-ui/react"
 import "./Cartpage.css"
 import {RiCouponLine} from "react-icons/ri"
 import {TbTruckDelivery} from "react-icons/tb"
-import { useSelector } from "react-redux"
-
+import { useDispatch, useSelector } from "react-redux"
+import { deleteProductCart } from "../Redux/Products/action"
 
 export const Cart = ()=>{
 
     const cart = useSelector((store)=>store.ecommerceData.cart)
+    const dispatch = useDispatch();
+    const removeProduct = (id)=>{
+      dispatch(deleteProductCart(id))
+    }
   
 console.log(cart)
 
@@ -24,10 +28,10 @@ console.log(cart)
                     <Box  >
                 {    cart.map(product=>{
                 return(
-                    <Box className="cart-pro" >
+                    <Box key={product.id} className="cart-pro" >
                         <Box className="cart-img" >
                             <Box>
-                                <img className="img" src={product.image} ></img>
+                                <img className="img1" src={product.image} ></img>
                             </Box>
                         </Box>
                         <Box className="cart-title" >
@@ -35,7 +39,7 @@ console.log(cart)
                                 <Text>{product.title}</Text>
                             </Box>
                             <Box style={{marginTop:"20px"}} >
-                                <button className="remove" >Remove</button>
+                                <button onClick={()=>removeProduct(product.id)} className="remove" >Remove</button>
                             </Box>
                         </Box>
                         <Box className="cart-rate" >

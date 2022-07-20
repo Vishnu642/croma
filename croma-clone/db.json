@@ -359,21 +359,369 @@
         "rate": 4,
         "count": 315
       }
-    }
-  ],
-  "cart": [
+    },
     {
-      "id": 6,
-      "title": "Realme NEO 80cm smart TV",
-      "price": 25999,
+      "id": 31,
+      "title": "Redmi Earbuds 3",
+      "price": 2399,
       "description": "POLESTAR Vintage” has unique style and utility requirement. Ergonomically designed with padded base. This Backpack is spacious, lightweight and easy to carry. It is an ideal backpack for daily use, Office, School, College, travel etc.",
-      "category": "Television",
-      "image": "https://d2d22nphq0yz8t.cloudfront.net/88e6cc4b-eaa1-4053-af65-563d88ba8b26/https://media.croma.com/image/upload/v1652775003/Croma%20Assets/Entertainment/Television/Images/252950_gfpmul.png/mxw_1440,f_auto",
+      "category": "Audio",
+      "image": "https://d2d22nphq0yz8t.cloudfront.net/88e6cc4b-eaa1-4053-af65-563d88ba8b26/https://media.croma.com/image/upload/v1635230031/Croma%20Assets/Entertainment/Wireless%20Earbuds/Images/243016_kkpkfp.png/mxw_1440,f_auto",
       "rating": {
         "rate": 4,
         "count": 315
       }
     },
+    {
+      "id": 32,
+      "title": "Boat Airdopes 381",
+      "price": 1999,
+      "description": "POLESTAR Vintage” has unique style and utility requirement. Ergonomically designed with padded base. This Backpack is spacious, lightweight and easy to carry. It is an ideal backpack for daily use, Office, School, College, travel etc.",
+      "category": "Audio",
+      "image": "https://d2d22nphq0yz8t.cloudfront.net/88e6cc4b-eaa1-4053-af65-563d88ba8b26/https://media.croma.com/image/upload/v1639139867/Croma%20Assets/Entertainment/Wireless%20Earbuds/Images/246098_pstf0x.png/mxw_1440,f_auto",
+      "rating": {
+        "rate": 4,
+        "count": 315
+      }
+    },
+    {
+      "id": 33,
+      "title": "JBL bluetooth earbuds",
+      "price": 2399,
+      "description": "POLESTAR Vintage” has unique style and utility requirement. Ergonomically designed with padded base. This Backpack is spacious, lightweight and easy to carry. It is an ideal backpack for daily use, Office, School, College, travel etc.",
+      "category": "Audio",
+      "image": "https://d2d22nphq0yz8t.cloudfront.net/88e6cc4b-eaa1-4053-af65-563d88ba8b26/https://media.croma.com/image/upload/v1605267292/Croma%20Assets/Entertainment/Headphones%20and%20Earphones/Images/8944935370782.png/mxw_1440,f_auto",
+      "rating": {
+        "rate": 4,
+        "count": 315
+      }
+    },
+    {
+      "id": 34,
+      "title": "Sony WH-1000",
+      "price": 24599,
+      "description": "POLESTAR Vintage” has unique style and utility requirement. Ergonomically designed with padded base. This Backpack is spacious, lightweight and easy to carry. It is an ideal backpack for daily use, Office, School, College, travel etc.",
+      "category": "Audio",
+      "image": "https://d2d22nphq0yz8t.cloudfront.net/88e6cc4b-eaa1-4053-af65-563d88ba8b26/https://media.croma.com/image/upload/v1605264769/Croma%20Assets/Entertainment/Headphones%20and%20Earphones/Images/8977403510814.png/mxw_1440,f_auto",
+      "rating": {
+        "rate": 4,
+        "count": 315
+      }
+    },
+    {
+      "id": 35,
+      "title": "Jabra elite 3",
+      "price": 5999,
+      "description": "POLESTAR Vintage” has unique style and utility requirement. Ergonomically designed with padded base. This Backpack is spacious, lightweight and easy to carry. It is an ideal backpack for daily use, Office, School, College, travel etc.",
+      "category": "Audio",
+      "image": "https://d2d22nphq0yz8t.cloudfront.net/88e6cc4b-eaa1-4053-af65-563d88ba8b26/https://media.croma.com/image/upload/v1634197668/Croma%20Assets/Entertainment/Wireless%20Earbuds/Images/244434_km6rlw.png/mxw_1440,f_auto",
+      "rating": {
+        "rate": 4,
+        "count": 315
+      }
+    },
+    {
+      "id": 36,
+      "title": "JBL Wave 100",
+      "price": 2599,
+      "description": "POLESTAR Vintage” has unique style and utility requirement. Ergonomically designed with padded base. This Backpack is spacious, lightweight and easy to carry. It is an ideal backpack for daily use, Office, School, College, travel etc.",
+      "category": "Audio",
+      "image": "https://d2d22nphq0yz8t.cloudfront.net/88e6cc4b-eaa1-4053-af65-563d88ba8b26/https://media.croma.com/image/upload/v1640670901/Croma%20Assets/Entertainment/Wireless%20Earbuds/Images/246499_rnj63a.png/mxw_1440,f_auto",
+      "rating": {
+        "rate": 4,
+        "count": 315
+      }
+    },
+    {
+      "id": 37,
+      "title": "Saregama Saarvan go",
+      "price": 4590,
+      "description": "POLESTAR Vintage” has unique style and utility requirement. Ergonomically designed with padded base. This Backpack is spacious, lightweight and easy to carry. It is an ideal backpack for daily use, Office, School, College, travel etc.",
+      "category": "Audio",
+      "image": "https://d2d22nphq0yz8t.cloudfront.net/88e6cc4b-eaa1-4053-af65-563d88ba8b26/https://media.croma.com/image/upload/v1610432029/Croma%20Assets/Entertainment/Speakers%20and%20Media%20Players/Images/224539_kbie6d.png/mxw_1440,f_auto",
+      "rating": {
+        "rate": 4,
+        "count": 315
+      }
+    },
+    {
+      "id": 38,
+      "title": "Realme buds air 2",
+      "price": 2999,
+      "description": "POLESTAR Vintage” has unique style and utility requirement. Ergonomically designed with padded base. This Backpack is spacious, lightweight and easy to carry. It is an ideal backpack for daily use, Office, School, College, travel etc.",
+      "category": "Audio",
+      "image": "https://d2d22nphq0yz8t.cloudfront.net/88e6cc4b-eaa1-4053-af65-563d88ba8b26/https://media.croma.com/image/upload/v1618215941/Croma%20Assets/Entertainment/Headphones%20and%20Earphones/Images/233936_piktev.png/mxw_1440,f_auto",
+      "rating": {
+        "rate": 4,
+        "count": 315
+      }
+    },
+    {
+      "id": 39,
+      "title": "Shemaroo Amrit vaani",
+      "price": 4599,
+      "description": "POLESTAR Vintage” has unique style and utility requirement. Ergonomically designed with padded base. This Backpack is spacious, lightweight and easy to carry. It is an ideal backpack for daily use, Office, School, College, travel etc.",
+      "category": "Audio",
+      "image": "https://d2d22nphq0yz8t.cloudfront.net/88e6cc4b-eaa1-4053-af65-563d88ba8b26/https://media.croma.com/image/upload/v1605169177/Croma%20Assets/Entertainment/Speakers%20and%20Media%20Players/Images/8944844996638.png/mxw_1440,f_auto",
+      "rating": {
+        "rate": 4,
+        "count": 315
+      }
+    },
+    {
+      "id": 40,
+      "title": "Marshall stanmor 2",
+      "price": 34500,
+      "description": "POLESTAR Vintage” has unique style and utility requirement. Ergonomically designed with padded base. This Backpack is spacious, lightweight and easy to carry. It is an ideal backpack for daily use, Office, School, College, travel etc.",
+      "category": "Audio",
+      "image": "https://d2d22nphq0yz8t.cloudfront.net/88e6cc4b-eaa1-4053-af65-563d88ba8b26/https://media.croma.com/image/upload/v1605135616/Croma%20Assets/Entertainment/Speakers%20and%20Media%20Players/Images/8945112023070.png/mxw_1440,f_auto",
+      "rating": {
+        "rate": 4,
+        "count": 315
+      }
+    },
+    {
+      "id": 41,
+      "title": "Samsung 253 ltrs",
+      "price": 24999,
+      "description": "POLESTAR Vintage” has unique style and utility requirement. Ergonomically designed with padded base. This Backpack is spacious, lightweight and easy to carry. It is an ideal backpack for daily use, Office, School, College, travel etc.",
+      "category": "Refrigerators",
+      "image": "https://d2d22nphq0yz8t.cloudfront.net/88e6cc4b-eaa1-4053-af65-563d88ba8b26/https://media.croma.com/image/upload/v1610967207/Croma%20Assets/Large%20Appliances/Refrigerator/Images/231740_k8tae6.png/mxw_1440,f_auto",
+      "rating": {
+        "rate": 4,
+        "count": 315
+      }
+    },
+    {
+      "id": 42,
+      "title": "Bosch serie 2",
+      "price": 77999,
+      "description": "POLESTAR Vintage” has unique style and utility requirement. Ergonomically designed with padded base. This Backpack is spacious, lightweight and easy to carry. It is an ideal backpack for daily use, Office, School, College, travel etc.",
+      "category": "Refrigerators",
+      "image": "https://d2d22nphq0yz8t.cloudfront.net/88e6cc4b-eaa1-4053-af65-563d88ba8b26/https://media.croma.com/image/upload/v1627035912/Croma%20Assets/Large%20Appliances/Refrigerator/Images/218574_f5crl6.png/mxw_1440,f_auto",
+      "rating": {
+        "rate": 4,
+        "count": 315
+      }
+    },
+    {
+      "id": 43,
+      "title": "Haier 276 ltrs",
+      "price": 30999,
+      "description": "POLESTAR Vintage” has unique style and utility requirement. Ergonomically designed with padded base. This Backpack is spacious, lightweight and easy to carry. It is an ideal backpack for daily use, Office, School, College, travel etc.",
+      "category": "Refrigerators",
+      "image": "https://d2d22nphq0yz8t.cloudfront.net/88e6cc4b-eaa1-4053-af65-563d88ba8b26/https://media.croma.com/image/upload/v1605337027/Croma%20Assets/Large%20Appliances/Refrigerator/Images/8951130423326.png/mxw_1440,f_auto",
+      "rating": {
+        "rate": 4,
+        "count": 315
+      }
+    },
+    {
+      "id": 44,
+      "title": "Haier 620 ltrs",
+      "price": 62599,
+      "description": "POLESTAR Vintage” has unique style and utility requirement. Ergonomically designed with padded base. This Backpack is spacious, lightweight and easy to carry. It is an ideal backpack for daily use, Office, School, College, travel etc.",
+      "category": "Refrigerators",
+      "image": "https://d2d22nphq0yz8t.cloudfront.net/88e6cc4b-eaa1-4053-af65-563d88ba8b26/https://media.croma.com/image/upload/v1615531836/Croma%20Assets/Large%20Appliances/Refrigerator/Images/233280_ttvmoj.png/mxw_1440,f_auto",
+      "rating": {
+        "rate": 4,
+        "count": 315
+      }
+    },
+    {
+      "id": 45,
+      "title": "LG 190 Ltrs",
+      "price": 15999,
+      "description": "POLESTAR Vintage” has unique style and utility requirement. Ergonomically designed with padded base. This Backpack is spacious, lightweight and easy to carry. It is an ideal backpack for daily use, Office, School, College, travel etc.",
+      "category": "Refrigerators",
+      "image": "https://d2d22nphq0yz8t.cloudfront.net/88e6cc4b-eaa1-4053-af65-563d88ba8b26/https://media.croma.com/image/upload/v1651810879/Croma%20Assets/Large%20Appliances/Refrigerator/Images/250664_qpohwr.png/mxw_1440,f_auto",
+      "rating": {
+        "rate": 4,
+        "count": 315
+      }
+    },
+    {
+      "id": 46,
+      "title": "LG 670 Ltrs",
+      "price": 170000,
+      "description": "POLESTAR Vintage” has unique style and utility requirement. Ergonomically designed with padded base. This Backpack is spacious, lightweight and easy to carry. It is an ideal backpack for daily use, Office, School, College, travel etc.",
+      "category": "Refrigerators",
+      "image": "https://d2d22nphq0yz8t.cloudfront.net/88e6cc4b-eaa1-4053-af65-563d88ba8b26/https://media.croma.com/image/upload/v1650094055/Croma%20Assets/Large%20Appliances/Refrigerator/Images/251548_izbzqy.png/mxw_1440,f_auto",
+      "rating": {
+        "rate": 4,
+        "count": 315
+      }
+    },
+    {
+      "id": 47,
+      "title": "Godrej eon",
+      "price": 33590,
+      "description": "POLESTAR Vintage” has unique style and utility requirement. Ergonomically designed with padded base. This Backpack is spacious, lightweight and easy to carry. It is an ideal backpack for daily use, Office, School, College, travel etc.",
+      "category": "Refrigerators",
+      "image": "https://d2d22nphq0yz8t.cloudfront.net/88e6cc4b-eaa1-4053-af65-563d88ba8b26/https://media.croma.com/image/upload/v1637999016/Croma%20Assets/Large%20Appliances/Refrigerator/Images/243386_biazxy.png/mxw_1440,f_auto",
+      "rating": {
+        "rate": 4,
+        "count": 315
+      }
+    },
+    {
+      "id": 48,
+      "title": "Whirlpool 240 ltrs",
+      "price": 35999,
+      "description": "POLESTAR Vintage” has unique style and utility requirement. Ergonomically designed with padded base. This Backpack is spacious, lightweight and easy to carry. It is an ideal backpack for daily use, Office, School, College, travel etc.",
+      "category": "Refrigerators",
+      "image": "https://d2d22nphq0yz8t.cloudfront.net/88e6cc4b-eaa1-4053-af65-563d88ba8b26/https://media.croma.com/image/upload/v1605167046/Croma%20Assets/Large%20Appliances/Refrigerator/Images/8944763666462.png/mxw_1440,f_auto",
+      "rating": {
+        "rate": 4,
+        "count": 315
+      }
+    },
+    {
+      "id": 49,
+      "title": "Whirlpool 340 Ltrs",
+      "price": 40599,
+      "description": "POLESTAR Vintage” has unique style and utility requirement. Ergonomically designed with padded base. This Backpack is spacious, lightweight and easy to carry. It is an ideal backpack for daily use, Office, School, College, travel etc.",
+      "category": "Refrigerators",
+      "image": "https://d2d22nphq0yz8t.cloudfront.net/88e6cc4b-eaa1-4053-af65-563d88ba8b26/https://media.croma.com/image/upload/v1613047864/Croma%20Assets/Large%20Appliances/Refrigerator/Images/232474_hthgew.png/mxw_1440,f_auto",
+      "rating": {
+        "rate": 4,
+        "count": 315
+      }
+    },
+    {
+      "id": 50,
+      "title": "Whirlpool 190 ltrs",
+      "price": 17900,
+      "description": "POLESTAR Vintage” has unique style and utility requirement. Ergonomically designed with padded base. This Backpack is spacious, lightweight and easy to carry. It is an ideal backpack for daily use, Office, School, College, travel etc.",
+      "category": "Refrigerators",
+      "image": "https://d2d22nphq0yz8t.cloudfront.net/88e6cc4b-eaa1-4053-af65-563d88ba8b26/https://media.croma.com/image/upload/v1605331557/Croma%20Assets/Large%20Appliances/Refrigerator/Images/8951183966238.png/mxw_1440,f_auto",
+      "rating": {
+        "rate": 4,
+        "count": 315
+      }
+    },
+    {
+      "id": 51,
+      "title": "LG 9kg 5 star",
+      "price": 42900,
+      "description": "POLESTAR Vintage” has unique style and utility requirement. Ergonomically designed with padded base. This Backpack is spacious, lightweight and easy to carry. It is an ideal backpack for daily use, Office, School, College, travel etc.",
+      "category": "Washing Machines",
+      "image": "https://d2d22nphq0yz8t.cloudfront.net/88e6cc4b-eaa1-4053-af65-563d88ba8b26/https://media.croma.com/image/upload/v1626944965/Croma%20Assets/Large%20Appliances/Washers%20and%20Dryers/Images/236729_j79oqk.png/mxw_1440,f_auto",
+      "rating": {
+        "rate": 4,
+        "count": 315
+      }
+    },
+    {
+      "id": 52,
+      "title": "IFB Executive",
+      "price": 63400,
+      "description": "POLESTAR Vintage” has unique style and utility requirement. Ergonomically designed with padded base. This Backpack is spacious, lightweight and easy to carry. It is an ideal backpack for daily use, Office, School, College, travel etc.",
+      "category": "Washing Machines",
+      "image": "https://d2d22nphq0yz8t.cloudfront.net/88e6cc4b-eaa1-4053-af65-563d88ba8b26/https://media.croma.com/image/upload/v1619593805/Croma%20Assets/Large%20Appliances/Washers%20and%20Dryers/Images/233094_qkdevw.png/mxw_1440,f_auto",
+      "rating": {
+        "rate": 4,
+        "count": 315
+      }
+    },
+    {
+      "id": 53,
+      "title": "Whirlpool 7.5kgs",
+      "price": 23900,
+      "description": "POLESTAR Vintage” has unique style and utility requirement. Ergonomically designed with padded base. This Backpack is spacious, lightweight and easy to carry. It is an ideal backpack for daily use, Office, School, College, travel etc.",
+      "category": "Washing Machines",
+      "image": "https://d2d22nphq0yz8t.cloudfront.net/88e6cc4b-eaa1-4053-af65-563d88ba8b26/https://media.croma.com/image/upload/v1605129722/Croma%20Assets/Large%20Appliances/Washers%20and%20Dryers/Images/8937892839454.png/mxw_1440,f_auto",
+      "rating": {
+        "rate": 4,
+        "count": 315
+      }
+    },
+    {
+      "id": 54,
+      "title": "LG 11kgs",
+      "price": 55000,
+      "description": "POLESTAR Vintage” has unique style and utility requirement. Ergonomically designed with padded base. This Backpack is spacious, lightweight and easy to carry. It is an ideal backpack for daily use, Office, School, College, travel etc.",
+      "category": "Washing Machines",
+      "image": "https://d2d22nphq0yz8t.cloudfront.net/88e6cc4b-eaa1-4053-af65-563d88ba8b26/https://media.croma.com/image/upload/v1655370905/Croma%20Assets/Large%20Appliances/Washers%20and%20Dryers/Images/253429_jx9ma4.png/mxw_1440,f_auto",
+      "rating": {
+        "rate": 4,
+        "count": 315
+      }
+    },
+    {
+      "id": 55,
+      "title": "LG 9kg 5 star",
+      "price": 17900,
+      "description": "POLESTAR Vintage” has unique style and utility requirement. Ergonomically designed with padded base. This Backpack is spacious, lightweight and easy to carry. It is an ideal backpack for daily use, Office, School, College, travel etc.",
+      "category": "Washing Machines",
+      "image": "https://d2d22nphq0yz8t.cloudfront.net/88e6cc4b-eaa1-4053-af65-563d88ba8b26/https://media.croma.com/image/upload/v1626944965/Croma%20Assets/Large%20Appliances/Washers%20and%20Dryers/Images/236729_j79oqk.png/mxw_1440,f_auto",
+      "rating": {
+        "rate": 4,
+        "count": 315
+      }
+    },
+    {
+      "id": 56,
+      "title": "LG 9kg 5 star",
+      "price": 17900,
+      "description": "POLESTAR Vintage” has unique style and utility requirement. Ergonomically designed with padded base. This Backpack is spacious, lightweight and easy to carry. It is an ideal backpack for daily use, Office, School, College, travel etc.",
+      "category": "Washing Machines",
+      "image": "https://d2d22nphq0yz8t.cloudfront.net/88e6cc4b-eaa1-4053-af65-563d88ba8b26/https://media.croma.com/image/upload/v1626944965/Croma%20Assets/Large%20Appliances/Washers%20and%20Dryers/Images/236729_j79oqk.png/mxw_1440,f_auto",
+      "rating": {
+        "rate": 4,
+        "count": 315
+      }
+    },
+    {
+      "id": 57,
+      "title": "LG 9kg 5 star",
+      "price": 17900,
+      "description": "POLESTAR Vintage” has unique style and utility requirement. Ergonomically designed with padded base. This Backpack is spacious, lightweight and easy to carry. It is an ideal backpack for daily use, Office, School, College, travel etc.",
+      "category": "Washing Machines",
+      "image": "https://d2d22nphq0yz8t.cloudfront.net/88e6cc4b-eaa1-4053-af65-563d88ba8b26/https://media.croma.com/image/upload/v1626944965/Croma%20Assets/Large%20Appliances/Washers%20and%20Dryers/Images/236729_j79oqk.png/mxw_1440,f_auto",
+      "rating": {
+        "rate": 4,
+        "count": 315
+      }
+    },
+    {
+      "id": 58,
+      "title": "LG 9kg 5 star",
+      "price": 17900,
+      "description": "POLESTAR Vintage” has unique style and utility requirement. Ergonomically designed with padded base. This Backpack is spacious, lightweight and easy to carry. It is an ideal backpack for daily use, Office, School, College, travel etc.",
+      "category": "Washing Machines",
+      "image": "https://d2d22nphq0yz8t.cloudfront.net/88e6cc4b-eaa1-4053-af65-563d88ba8b26/https://media.croma.com/image/upload/v1626944965/Croma%20Assets/Large%20Appliances/Washers%20and%20Dryers/Images/236729_j79oqk.png/mxw_1440,f_auto",
+      "rating": {
+        "rate": 4,
+        "count": 315
+      }
+    },
+    {
+      "id": 59,
+      "title": "LG 9kg 5 star",
+      "price": 17900,
+      "description": "POLESTAR Vintage” has unique style and utility requirement. Ergonomically designed with padded base. This Backpack is spacious, lightweight and easy to carry. It is an ideal backpack for daily use, Office, School, College, travel etc.",
+      "category": "Washing Machines",
+      "image": "https://d2d22nphq0yz8t.cloudfront.net/88e6cc4b-eaa1-4053-af65-563d88ba8b26/https://media.croma.com/image/upload/v1626944965/Croma%20Assets/Large%20Appliances/Washers%20and%20Dryers/Images/236729_j79oqk.png/mxw_1440,f_auto",
+      "rating": {
+        "rate": 4,
+        "count": 315
+      }
+    },
+    {
+      "id": 60,
+      "title": "LG 9kg 5 star",
+      "price": 17900,
+      "description": "POLESTAR Vintage” has unique style and utility requirement. Ergonomically designed with padded base. This Backpack is spacious, lightweight and easy to carry. It is an ideal backpack for daily use, Office, School, College, travel etc.",
+      "category": "Washing Machines",
+      "image": "https://d2d22nphq0yz8t.cloudfront.net/88e6cc4b-eaa1-4053-af65-563d88ba8b26/https://media.croma.com/image/upload/v1626944965/Croma%20Assets/Large%20Appliances/Washers%20and%20Dryers/Images/236729_j79oqk.png/mxw_1440,f_auto",
+      "rating": {
+        "rate": 4,
+        "count": 315
+      }
+    }
+  ],
+  "cart": [
     {
       "id": 16,
       "title": "Nokia 5310",
@@ -381,18 +729,6 @@
       "description": "POLESTAR Vintage” has unique style and utility requirement. Ergonomically designed with padded base. This Backpack is spacious, lightweight and easy to carry. It is an ideal backpack for daily use, Office, School, College, travel etc.",
       "category": "Mobiles",
       "image": "https://d2d22nphq0yz8t.cloudfront.net/88e6cc4b-eaa1-4053-af65-563d88ba8b26/https://media.croma.com/image/upload/v1605328225/Croma%20Assets/Communication/Mobiles/Images/8944737353758.png/mxw_1440,f_auto",
-      "rating": {
-        "rate": 4,
-        "count": 315
-      }
-    },
-    {
-      "id": 24,
-      "title": "HP 15s",
-      "price": 31999,
-      "description": "POLESTAR Vintage” has unique style and utility requirement. Ergonomically designed with padded base. This Backpack is spacious, lightweight and easy to carry. It is an ideal backpack for daily use, Office, School, College, travel etc.",
-      "category": "Laptops",
-      "image": "https://d2d22nphq0yz8t.cloudfront.net/88e6cc4b-eaa1-4053-af65-563d88ba8b26/https://media.croma.com/image/upload/v1657044219/Croma%20Assets/Computers%20Peripherals/Laptop/Images/248020_k9qsrs.png/mxw_1440,f_auto",
       "rating": {
         "rate": 4,
         "count": 315

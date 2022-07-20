@@ -1,9 +1,12 @@
-.product-container{
+.product1-container{
     width: 90%;
     margin: auto;
     display: flex;
     background-color: #1e1e1e;
     color: white;
+    border-bottom: 1px solid white;
+    
+    
 }
 .product-img{
     width: 50%;

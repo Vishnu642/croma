@@ -12,7 +12,7 @@ import {Box,Flex,Image, Menu,Text,
    import {GoLocation} from "react-icons/go"
    import {FiShoppingCart} from "react-icons/fi"
 import { CartCounter } from './CartCounter';
-
+import "./Navbar.css"
 
 export const Navbar = ()=>{
     return(
@@ -34,7 +34,7 @@ export const Navbar = ()=>{
     command="Menu"
     color="white"
   />
-  <MenuList bg="black" color="white"  >
+  <MenuList bg="black" color="white" className="menu-focus"  >
     <MenuItem fontWeight="bold" >
       SHOP BY CATEGORY
     </MenuItem>
@@ -92,7 +92,7 @@ export const Navbar = ()=>{
 
                 <Box>
                 
-            <Box  position="relative" padding="1rem 0.5rem 0 0" >
+            <Box  position="relative" padding="1rem 0.5rem 0 0" top="15px">
           <CartCounter/>
           <FiShoppingCart color="white" size="30px" />
           </Box>

@@ -6,8 +6,9 @@ export const Homepage = ()=>{
     return(
         <div>
             <DemoCarousel/>
-            <NewAtCroma/>
             <Highlights/>
+            <NewAtCroma/>
+            
         </div>
     )
 }
