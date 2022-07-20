@@ -2,9 +2,10 @@ import {Box, Checkbox, CheckboxGroup, MenuList, Stack,MenuButton,Menu, Text, Men
 import "./Products.css"
 import {ChevronDownIcon} from "@chakra-ui/icons"
 import {useDispatch, useSelector} from "react-redux"
-import { useEffect } from "react"
+import { useEffect, useState } from "react"
 import { fetchData } from "../Redux/Products/action"
 import {AiOutlineHeart} from "react-icons/ai"
+import { useSearchParams } from "react-router-dom"
 // import { Link } from "react-router-dom"
 
 
@@ -18,6 +19,24 @@ export const Products = ()=>{
         dispatch(fetchData())
   },[dispatch])
 
+  const [searchParams,setSearchParams] = useSearchParams();
+    const [catergoryValues,setCategoryValues] = useState( searchParams.getAll("category") || []);
+
+    const categoryHandler = (values)=>{
+        setCategoryValues(values)
+    }
+
+    useEffect(()=>{
+        if(catergoryValues){
+            setSearchParams({category:catergoryValues},{replace:true})
+            let params = {
+              category: searchParams.getAll("category"),
+            }
+            dispatch(fetchData(params))
+        }
+    },[catergoryValues,setSearchParams,searchParams])
+
+    
 
     return(
         <Box className="product-container" >
@@ -57,10 +76,11 @@ export const Products = ()=>{
            
 <Box className="category"   >
             
-            <CheckboxGroup   colorScheme="green" >
+            <CheckboxGroup defaultValue={catergoryValues} onChange={categoryHandler}
+              colorScheme="green" >
   <Stack>
   <Text className="heading"  >Categories</Text>
-    <Checkbox value='Televisions'>Televisions</Checkbox>
+    <Checkbox value='Television'>Televisions</Checkbox>
     <Checkbox value='Mobiles'>Mobiles</Checkbox>
     <Checkbox value='Laptops'>Laptops</Checkbox>
     <Checkbox value='Audio'>Audio</Checkbox>
