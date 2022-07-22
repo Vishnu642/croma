@@ -8,7 +8,6 @@ export const Homepage = ()=>{
             <DemoCarousel/>
             <Highlights/>
             <NewAtCroma/>
-            
         </div>
     )
 }

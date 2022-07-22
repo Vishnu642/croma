@@ -9,6 +9,12 @@ export const Cart = ()=>{
 
     const cart = useSelector((store)=>store.ecommerceData.cart)
     const dispatch = useDispatch();
+    const totalAmount = cart.reduce((acc, elem) => {
+        console.log(elem.price)
+        return acc + Number(elem.price);
+      }, 0);
+      console.log(totalAmount)
+
     const removeProduct = (id)=>{
       dispatch(deleteProductCart(id))
     }
@@ -64,10 +70,10 @@ console.log(cart)
                     </Box>
 
                     <Box className="total-box" >
-                        <Box>Order Summary ( 3 items )</Box>
+                        <Box>Order Summary ( {cart.length} items )</Box>
                         <Box className="total-flex" >
                             <Box>Original Price</Box>
-                            <Box>₹ 46576</Box>
+                            <Box>₹ {totalAmount}</Box>
                         </Box>
                         <Box className="total-flex" >
                             <Box>Delivery</Box>
@@ -75,7 +81,7 @@ console.log(cart)
                         </Box>
                         <Box className="total-flex" >
                             <Box>Total</Box>
-                            <Box>₹ 475647</Box>
+                            <Box>₹ {totalAmount}</Box>
                         </Box>
 
                         <Box style={{display:"flex",justifyContent:"center"}} >

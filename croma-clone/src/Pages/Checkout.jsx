@@ -8,7 +8,11 @@ import { useSelector } from "react-redux"
 export const Checkout = ()=>{
 
     const cart = useSelector((store)=>store.ecommerceData.cart)
-
+    const totalAmount = cart.reduce((acc, elem) => {
+        console.log(elem.price)
+        return acc + Number(elem.price);
+      }, 0);
+      console.log(totalAmount)
   
 console.log(cart)
 
@@ -17,7 +21,7 @@ console.log(cart)
             <Box className="cart-heading" >Your Orders</Box>
 
             <Box className="cart-container" >
-                <Box className="cart-details" >
+                <Box className="cart-details" style={{width:"50%"}} >
                     <Box className="coupon" >
                         <RiCouponLine size="30px" />
                         <Text>Apply Coupon</Text>
@@ -47,13 +51,23 @@ console.log(cart)
                     </Box>
                 </Box>
 
+                <Box className="cart-price" style={{width:"50%"}} >
+                    <Box className="delivery" >
+                    <Box><Text>Shipping Address</Text></Box> 
+                        <Box>
+                           <Box><textarea style={{width:"80%",color:"black"
+                           ,border:"1px solid black",marginTop:"10px",height:"100px"}} 
+                           
+                           ></textarea></Box> 
+                        </Box>
+                    </Box>
 
 
                     <Box className="total-box" style={{height:"300px"}}  >
-                        <Box>Order Summary ( 3 items )</Box>
+                        <Box>Order summary ( {cart.length} items )</Box>
                         <Box className="total-flex" >
                             <Box>Original Price</Box>
-                            <Box>₹ 46576</Box>
+                            <Box>₹ {totalAmount}</Box>
                         </Box>
                         <Box className="total-flex" >
                             <Box>Delivery</Box>
@@ -61,7 +75,7 @@ console.log(cart)
                         </Box>
                         <Box className="total-flex" >
                             <Box>Total</Box>
-                            <Box>₹ 475647</Box>
+                            <Box>₹ {totalAmount}</Box>
                         </Box>
 
                         <Box style={{display:"flex",justifyContent:"center"}} >
@@ -74,6 +88,6 @@ console.log(cart)
                 </Box>
 
             </Box>
-        
+    </Box>    
     )
 }
