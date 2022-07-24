@@ -10,15 +10,15 @@ import { Link } from "react-router-dom"
 
 
 export const Products = ()=>{
-  const [costOrder,setCostOrder] = useState("asc")
+  
 
   const products = useSelector((store)=>store.ecommerceData.products)
 
   const dispatch = useDispatch()
 
   useEffect(()=>{
-        dispatch(fetchData({costOrder}))
-  },[dispatch,costOrder])
+        dispatch(fetchData())
+  },[dispatch])
 
   const [searchParams,setSearchParams] = useSearchParams();
     const [catergoryValues,setCategoryValues] = useState( searchParams.getAll("category") || []);
@@ -60,8 +60,8 @@ export const Products = ()=>{
     Featured <ChevronDownIcon />
   </MenuButton>
   <MenuList  bg="black" color="white" >
-    <MenuItem onClick={()=>setCostOrder("desc")}  _hover={{bg:"white", color:"black"  }} >Price (Highest first)</MenuItem>
-    <MenuItem onClick={()=>setCostOrder("asc")} _hover={{bg:"white", color:"black"  }} >Price (Lowest first)</MenuItem>
+    <MenuItem   _hover={{bg:"white", color:"black"  }} >Price (Highest first)</MenuItem>
+    <MenuItem  _hover={{bg:"white", color:"black"  }} >Price (Lowest first)</MenuItem>
   </MenuList>
 </Menu>
 </Box>

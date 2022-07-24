@@ -15,7 +15,7 @@ export const AllRoutes =()=>{
             <Route path="/" element={<Homepage/>} ></Route>
             <Route path="/products" element={<RequireAuth><Products/></RequireAuth>} ></Route>
             <Route path="/products/:id" element={<Product/>} ></Route>
-            <Route path="/cart" element={<Cart/>} ></Route>
+            <Route path="/cart" element={<RequireAuth><Cart/></RequireAuth>} ></Route>
             <Route path="/checkout" element={<Checkout/>} ></Route>
             <Route path="/login" element={<Login/>} ></Route>
             <Route path="/signup" element={<Signup/>} ></Route>
