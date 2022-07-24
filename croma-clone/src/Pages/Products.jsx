@@ -6,18 +6,19 @@ import { useEffect, useState } from "react"
 import { fetchData } from "../Redux/Products/action"
 import {AiOutlineHeart} from "react-icons/ai"
 import { useSearchParams } from "react-router-dom"
-// import { Link } from "react-router-dom"
+import { Link } from "react-router-dom"
 
 
 export const Products = ()=>{
+  const [costOrder,setCostOrder] = useState("asc")
 
   const products = useSelector((store)=>store.ecommerceData.products)
 
   const dispatch = useDispatch()
 
   useEffect(()=>{
-        dispatch(fetchData())
-  },[dispatch])
+        dispatch(fetchData({costOrder}))
+  },[dispatch,costOrder])
 
   const [searchParams,setSearchParams] = useSearchParams();
     const [catergoryValues,setCategoryValues] = useState( searchParams.getAll("category") || []);
@@ -40,9 +41,6 @@ export const Products = ()=>{
 
     return(
         <Box className="product-container" >
-
-           
-
             <Box className="filter" >
 
             <Box className="sort"  >
@@ -62,8 +60,8 @@ export const Products = ()=>{
     Featured <ChevronDownIcon />
   </MenuButton>
   <MenuList  bg="black" color="white" >
-    <MenuItem _hover={{bg:"white", color:"black"  }} >Price (Highest first)</MenuItem>
-    <MenuItem _hover={{bg:"white", color:"black"  }} >Price (Lowest first)</MenuItem>
+    <MenuItem onClick={()=>setCostOrder("desc")}  _hover={{bg:"white", color:"black"  }} >Price (Highest first)</MenuItem>
+    <MenuItem onClick={()=>setCostOrder("asc")} _hover={{bg:"white", color:"black"  }} >Price (Lowest first)</MenuItem>
   </MenuList>
 </Menu>
 </Box>
@@ -119,12 +117,12 @@ export const Products = ()=>{
 
             {products.map(product=>{
                         return(
-                        <Box className="product-box" key={product.id} >
+                       <Link to={`/products/${product.id}`} > <Box className="product-box" key={product.id} >
                         <Box style={{display:"flex",justifyContent:"flex-end"}} ><AiOutlineHeart color="white" size="20px"  /></Box> 
                         <Box className="pro-img" ><img style={{objectFit:"contain"}} src={product.image} /></Box>
                         <Box className="pro-title" >{product.title}</Box>
                         <Box className="pro-price" >₹ {product.price}</Box>
-                        </Box>
+                        </Box></Link>
                     )})}
             </Box>
 

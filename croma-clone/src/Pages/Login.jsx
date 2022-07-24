@@ -10,8 +10,31 @@ import {
     Button,
     Heading
   } from '@chakra-ui/react';
+  import { useState } from "react"
+import { useAuth } from '../components/auth';
+import { useLocation, useNavigate } from "react-router-dom"
+
   
   export const Login =()=> {
+
+    const [user,setUser] = useState("")
+    const [mail,setMail] = useState("")
+    const Navigate = useNavigate()
+    const auth = useAuth()
+    const location = useLocation()
+
+    const redirectPath = location.state?.path || "/"
+
+    const handleClick = ()=>{
+        auth.login(user)
+    Navigate(redirectPath,{replace:true})
+    }
+
+    const handleLogout = ()=>{
+      auth.logout()
+      Navigate("/")
+  }
+
     return (
       <Flex
       color="white"
@@ -30,31 +53,43 @@ import {
             boxShadow={'lg'}
             p={8}>
             <Stack spacing={4}>
+            <FormControl id="email">
+                <FormLabel>User name</FormLabel>
+                <Input type="text" onChange={(e)=>setUser(e.target.value)} />
+              </FormControl>
               <FormControl id="email">
                 <FormLabel>Email address</FormLabel>
-                <Input type="email" />
+                <Input type="email" onChange={(e)=>setMail(e.target.value)} />
               </FormControl>
-              <FormControl id="password">
-                <FormLabel>Password</FormLabel>
-                <Input type="password" />
-              </FormControl>
+              
               <Stack spacing={10}>
-                <Stack
-                  direction={{ base: 'column', sm: 'row' }}
-                  align={'start'}
-                  justify={'space-between'}>
-                  <Checkbox>Remember me</Checkbox>
-                  <Link color="#00e9bf">Forgot password?</Link>
-                </Stack>
+                
                 <Button
                   bg="#00e9bf"
                   color="black"
                   _hover={{
                     bg: "#00e9bf",
-                  }}>
+                  }}
+                  onClick={handleClick}
+                  >
                   Login
                 </Button>
               </Stack>
+
+              <Stack spacing={10}>
+                
+                <Button
+                  bg="#00e9bf"
+                  color="black"
+                  _hover={{
+                    bg: "#00e9bf",
+                  }}
+                  onClick={handleLogout}
+                  >
+                  Logout
+                </Button>
+              </Stack>
+
             </Stack>
           </Box>
         </Stack>

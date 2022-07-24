@@ -29,12 +29,15 @@ const fetchDataFailure=(payload)=>{
     }
 }
 
-export const fetchData=(payload)=>{
+export const fetchData=({payload,costOrder})=>{
     return(dispatch)=>{
         dispatch(fetchDataRequest())
         Axios.get("/products",{
             params:{
-                ...payload
+                ...payload,
+                _sort:"price",
+                _order:`${costOrder}`
+          
             }
         }).then(res=>dispatch(fetchDataSuccess(res.data)))
         .catch(e=>dispatch(fetchDataFailure(e.data)))

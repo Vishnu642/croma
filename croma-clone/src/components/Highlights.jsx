@@ -1,5 +1,6 @@
 import "./Highlights.css"
 import {Box,Grid,GridItem,Image,Text,Flex} from "@chakra-ui/react"
+import {Link} from "react-router-dom"
 
 export const Highlights=()=>{
     return(
@@ -7,14 +8,14 @@ export const Highlights=()=>{
 
             <Box className="categories" >
             <Flex className="categories-box" >
-            <Box><Image objectFit="contain" borderRadius="10px" src="https://d2d22nphq0yz8t.cloudfront.net/88e6cc4b-eaa1-4053-af65-563d88ba8b26/https://media.croma.com/image/upload/v1650991658/Croma%20Assets/CMS/Homepage%20Banners/Category%20Navigation/Phone_qhq1wa.png/mxw_1440,f_auto" ></Image></Box>
-            <Box><Image objectFit="contain" borderRadius="10px" src="https://d2d22nphq0yz8t.cloudfront.net/88e6cc4b-eaa1-4053-af65-563d88ba8b26/https://media.croma.com/image/upload/v1650991658/Croma%20Assets/CMS/Homepage%20Banners/Category%20Navigation/TV_by2xka.png/mxw_1440,f_auto" ></Image></Box>
-            <Box><Image objectFit="contain" borderRadius="10px" src="https://d2d22nphq0yz8t.cloudfront.net/88e6cc4b-eaa1-4053-af65-563d88ba8b26/https://media.croma.com/image/upload/v1650991659/Croma%20Assets/CMS/Homepage%20Banners/Category%20Navigation/Laptop_zp1dxi.png/mxw_1440,f_auto" ></Image></Box>
-            <Box><Image objectFit="contain" borderRadius="10px" src="https://d2d22nphq0yz8t.cloudfront.net/88e6cc4b-eaa1-4053-af65-563d88ba8b26/https://media.croma.com/image/upload/v1650991659/Croma%20Assets/CMS/Homepage%20Banners/Category%20Navigation/Audio_rd8pkk.png/mxw_1440,f_auto" ></Image></Box>
-            <Box><Image objectFit="contain" borderRadius="10px" src="https://d2d22nphq0yz8t.cloudfront.net/88e6cc4b-eaa1-4053-af65-563d88ba8b26/https://media.croma.com/image/upload/v1650991659/Croma%20Assets/CMS/Homepage%20Banners/Category%20Navigation/AC_gw4ktn.png/mxw_1440,f_auto" ></Image></Box>
-            <Box><Image objectFit="contain" borderRadius="10px" src="https://d2d22nphq0yz8t.cloudfront.net/88e6cc4b-eaa1-4053-af65-563d88ba8b26/https://media.croma.com/image/upload/v1650991657/Croma%20Assets/CMS/Homepage%20Banners/Category%20Navigation/Ref_jmphdw.png/mxw_1440,f_auto" ></Image></Box>
-            <Box><Image objectFit="contain" borderRadius="10px" src="https://d2d22nphq0yz8t.cloudfront.net/88e6cc4b-eaa1-4053-af65-563d88ba8b26/https://media.croma.com/image/upload/v1650991658/Croma%20Assets/CMS/Homepage%20Banners/Category%20Navigation/WM_a9evzk.png/mxw_1440,f_auto" ></Image></Box>
-            <Box><Image objectFit="contain" borderRadius="10px" src="https://d2d22nphq0yz8t.cloudfront.net/88e6cc4b-eaa1-4053-af65-563d88ba8b26/https://media.croma.com/image/upload/v1650991657/Croma%20Assets/CMS/Homepage%20Banners/Category%20Navigation/ka_v9m9zt.png/mxw_1440,f_auto" ></Image></Box>
+            <Box><Link to="/products" ><Image objectFit="contain" borderRadius="10px" src="https://d2d22nphq0yz8t.cloudfront.net/88e6cc4b-eaa1-4053-af65-563d88ba8b26/https://media.croma.com/image/upload/v1650991658/Croma%20Assets/CMS/Homepage%20Banners/Category%20Navigation/Phone_qhq1wa.png/mxw_1440,f_auto" ></Image></Link></Box>
+            <Box><Link to="/products" ><Image objectFit="contain" borderRadius="10px" src="https://d2d22nphq0yz8t.cloudfront.net/88e6cc4b-eaa1-4053-af65-563d88ba8b26/https://media.croma.com/image/upload/v1650991658/Croma%20Assets/CMS/Homepage%20Banners/Category%20Navigation/TV_by2xka.png/mxw_1440,f_auto" ></Image></Link></Box>
+            <Box><Link to="/products" ><Image objectFit="contain" borderRadius="10px" src="https://d2d22nphq0yz8t.cloudfront.net/88e6cc4b-eaa1-4053-af65-563d88ba8b26/https://media.croma.com/image/upload/v1650991659/Croma%20Assets/CMS/Homepage%20Banners/Category%20Navigation/Laptop_zp1dxi.png/mxw_1440,f_auto" ></Image></Link></Box>
+            <Box><Link to="/products" ><Image objectFit="contain" borderRadius="10px" src="https://d2d22nphq0yz8t.cloudfront.net/88e6cc4b-eaa1-4053-af65-563d88ba8b26/https://media.croma.com/image/upload/v1650991659/Croma%20Assets/CMS/Homepage%20Banners/Category%20Navigation/Audio_rd8pkk.png/mxw_1440,f_auto" ></Image></Link></Box>
+            <Box><Link to="/products" ><Image objectFit="contain" borderRadius="10px" src="https://d2d22nphq0yz8t.cloudfront.net/88e6cc4b-eaa1-4053-af65-563d88ba8b26/https://media.croma.com/image/upload/v1650991659/Croma%20Assets/CMS/Homepage%20Banners/Category%20Navigation/AC_gw4ktn.png/mxw_1440,f_auto" ></Image></Link></Box>
+            <Box><Link to="/products" ><Image objectFit="contain" borderRadius="10px" src="https://d2d22nphq0yz8t.cloudfront.net/88e6cc4b-eaa1-4053-af65-563d88ba8b26/https://media.croma.com/image/upload/v1650991657/Croma%20Assets/CMS/Homepage%20Banners/Category%20Navigation/Ref_jmphdw.png/mxw_1440,f_auto" ></Image></Link></Box>
+            <Box><Link to="/products" ><Image objectFit="contain" borderRadius="10px" src="https://d2d22nphq0yz8t.cloudfront.net/88e6cc4b-eaa1-4053-af65-563d88ba8b26/https://media.croma.com/image/upload/v1650991658/Croma%20Assets/CMS/Homepage%20Banners/Category%20Navigation/WM_a9evzk.png/mxw_1440,f_auto" ></Image></Link></Box>
+            <Box><Link to="/products" ><Image objectFit="contain" borderRadius="10px" src="https://d2d22nphq0yz8t.cloudfront.net/88e6cc4b-eaa1-4053-af65-563d88ba8b26/https://media.croma.com/image/upload/v1650991657/Croma%20Assets/CMS/Homepage%20Banners/Category%20Navigation/ka_v9m9zt.png/mxw_1440,f_auto" ></Image></Link></Box>
             
         </Flex>
             </Box>
@@ -23,7 +24,7 @@ export const Highlights=()=>{
 
        
         
-        <Box className="new-header" ><Text>Highlights</Text></Box>
+        <Box className="new-header1" ><Text>Highlights</Text></Box>
         <Box className="highlights-box" >
         
         <Grid

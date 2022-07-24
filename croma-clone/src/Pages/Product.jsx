@@ -5,6 +5,8 @@ import {useDispatch, useSelector} from "react-redux"
 import { useEffect } from 'react';
 import { useParams } from 'react-router-dom';
 import {addProductCart, getSingleProduct} from "../Redux/Products/action"
+
+
 export const Product = ()=>{
     const {id} = useParams();
 

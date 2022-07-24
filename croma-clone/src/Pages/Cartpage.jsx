@@ -4,6 +4,7 @@ import {RiCouponLine} from "react-icons/ri"
 import {TbTruckDelivery} from "react-icons/tb"
 import { useDispatch, useSelector } from "react-redux"
 import { deleteProductCart } from "../Redux/Products/action"
+import {Link} from "react-router-dom"
 
 export const Cart = ()=>{
 
@@ -69,7 +70,7 @@ console.log(cart)
                         </Box>
                     </Box>
 
-                    <Box className="total-box" >
+                    <Box className="total-box">
                         <Box>Order Summary ( {cart.length} items )</Box>
                         <Box className="total-flex" >
                             <Box>Original Price</Box>
@@ -85,7 +86,7 @@ console.log(cart)
                         </Box>
 
                         <Box style={{display:"flex",justifyContent:"center"}} >
-                            <button className="total-button" >Checkout</button>
+                           <Link to="/checkout" > <button className="total-button" >Checkout</button></Link>
                         </Box>
                         <Box style={{padding:"10px"}}>
                             <Text>3 Bank offers available during payment</Text>

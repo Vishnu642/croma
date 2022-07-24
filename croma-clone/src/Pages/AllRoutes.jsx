@@ -6,13 +6,14 @@ import { Cart } from "./Cartpage"
 import { Checkout } from "./Checkout"
 import { Login } from "./Login"
 import { Signup } from "./Signup"
+import { RequireAuth } from "../components/RequireAuth"
 
 export const AllRoutes =()=>{
     return(
         <div>
         <Routes>
             <Route path="/" element={<Homepage/>} ></Route>
-            <Route path="/products" element={<Products/>} ></Route>
+            <Route path="/products" element={<RequireAuth><Products/></RequireAuth>} ></Route>
             <Route path="/products/:id" element={<Product/>} ></Route>
             <Route path="/cart" element={<Cart/>} ></Route>
             <Route path="/checkout" element={<Checkout/>} ></Route>

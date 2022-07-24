@@ -13,13 +13,16 @@ import {Box,Flex,Image, Menu,Text,
    import {FiShoppingCart} from "react-icons/fi"
 import { CartCounter } from './CartCounter';
 import "./Navbar.css"
+import {Link} from "react-router-dom"
+import { useAuth } from "./auth";
 
 export const Navbar = ()=>{
+  const auth = useAuth()
     return(
-        <Box>
-            <Flex border="1px" justifyContent="space-around" bg="black" flexWrap="nowrap" borderColor="black" w="100%" h="80px" >
+        <Box bg="black" >
+            <Flex margin="auto"  border="1px" justifyContent="space-around" bg="black" flexWrap="nowrap" borderColor="black" w="90%" h="80px" >
                 <Box display="flex" justifyContent="center" alignItems="center"  >
-                    <Image h="30px" w="250px" src="https://d2d22nphq0yz8t.cloudfront.net/88e6cc4b-eaa1-4053-af65-563d88ba8b26/https://media.croma.com/image/upload/v1637759004/Croma%20Assets/CMS/Category%20icon/Final%20icon/Croma_Logo_acrkvn.svg/mxw_160,f_auto" ></Image>
+                <Link to="/" > <Image h="30px" w="250px" src="https://d2d22nphq0yz8t.cloudfront.net/88e6cc4b-eaa1-4053-af65-563d88ba8b26/https://media.croma.com/image/upload/v1637759004/Croma%20Assets/CMS/Category%20icon/Final%20icon/Croma_Logo_acrkvn.svg/mxw_160,f_auto" ></Image></Link>
                 </Box>
 
 
@@ -38,37 +41,37 @@ export const Navbar = ()=>{
     <MenuItem fontWeight="bold" >
       SHOP BY CATEGORY
     </MenuItem>
-    <MenuItem command=">" >
+    <Link to="/products" > <MenuItem command=">" >
       Television and Accessories
-    </MenuItem>
-    <MenuItem command=">" >
+    </MenuItem></Link>
+    <Link to="/products" > <MenuItem command=">" >
       Home Appliances
-    </MenuItem>
-    <MenuItem command=">" >
+    </MenuItem></Link>
+    <Link to="/products" > <MenuItem command=">" >
       Phones and wearables
-    </MenuItem>
+    </MenuItem></Link>
   
-  <MenuItem command=">" >
+    <Link to="/products" ><MenuItem command=">" >
       Computer and Tablet
-    </MenuItem>
-    <MenuItem command=">" >
+    </MenuItem></Link>
+    <Link to="/products" > <MenuItem command=">" >
       Kitchen Appliances
-    </MenuItem>
-    <MenuItem command=">" >
+    </MenuItem></Link>
+    <Link to="/products" ><MenuItem command=">" >
       Audio and Video
-    </MenuItem>
-    <MenuItem command=">" >
+    </MenuItem></Link>
+    <Link to="/products" ><MenuItem command=">" >
       Health and Fitness
-    </MenuItem>
-    <MenuItem command=">" >
+    </MenuItem></Link>
+    <Link to="/products" > <MenuItem command=">" >
       Grooming and Personal Care
-    </MenuItem>
-    <MenuItem command=">" >
+    </MenuItem></Link>
+    <Link to="/products" > <MenuItem command=">" >
       Cameras and Accessories
-    </MenuItem>
-    <MenuItem command=">" >
+    </MenuItem></Link>
+    <Link to="/products" > <MenuItem command=">" >
       Smart Devices
-    </MenuItem>
+    </MenuItem></Link>
     </MenuList>
 </Menu>
 </Box>
@@ -86,15 +89,16 @@ export const Navbar = ()=>{
                     <Box display="flex" justifyContent="center" alignItems="center" ><GoLocation size="20px" color="white" /></Box>
                     <Box></Box>
                 </Box>
-                <Box display="flex" justifyContent="center" alignItems="center" >
-                    <FaUserAlt size="22" color="white" />
+                <Box display="flex" justifyContent="center" gap="10px" alignItems="center" >
+                   <Link to="/login" > <FaUserAlt size="22" color="white" /></Link>
+                   <Text color="white" >{auth.user}</Text>
                     </Box>
 
                 <Box>
                 
             <Box  position="relative" padding="1rem 0.5rem 0 0" top="15px">
           <CartCounter/>
-          <FiShoppingCart color="white" size="30px" />
+         <Link to="/cart" ><FiShoppingCart color="white" size="30px" /></Link> 
           </Box>
           
                 </Box>

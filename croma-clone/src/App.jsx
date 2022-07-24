@@ -5,6 +5,7 @@ import './App.css'
 import { Navbar } from './components/Navbar'
 import {Footer} from "./components/Footer"
 import { AllRoutes } from './Pages/AllRoutes'
+import { AuthProvider } from './components/auth'
 
 
 
@@ -18,9 +19,11 @@ function App() {
 
   return (
     <div className="App">
+      <AuthProvider>
       <Navbar/>
     <AllRoutes/>
     <Footer/>
+    </AuthProvider>
     </div>
   )
 }
