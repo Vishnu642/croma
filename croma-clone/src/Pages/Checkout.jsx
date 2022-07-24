@@ -1,11 +1,13 @@
 import { Box,Text } from "@chakra-ui/react"
 import "./Cartpage.css"
 import {RiCouponLine} from "react-icons/ri"
-import {TbTruckDelivery} from "react-icons/tb"
+import { Link } from "react-router-dom"
 import { useSelector } from "react-redux"
 
 
+
 export const Checkout = ()=>{
+    
 
     const cart = useSelector((store)=>store.ecommerceData.cart)
     const totalAmount = cart.reduce((acc, elem) => {
@@ -53,6 +55,7 @@ console.log(cart)
 
                 <Box className="cart-price" style={{width:"50%"}} >
                     <Box className="delivery" >
+                
                     <Box><Text>Shipping Address</Text></Box> 
                         <Box>
                            <Box><textarea style={{width:"80%",color:"black"
@@ -79,7 +82,7 @@ console.log(cart)
                         </Box>
 
                         <Box style={{display:"flex",justifyContent:"center"}} >
-                            <button className="total-button" >Payment</button>
+                            <Link to="/" ><button className="total-button" onClick={()=>alert("Your order is succesfully placed")} >Order</button></Link>
                         </Box>
                         <Box style={{padding:"10px"}}>
                             <Text>3 Bank offers available during payment</Text>
